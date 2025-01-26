@@ -61,7 +61,18 @@ const routes = [
           path: "wedding-loan",
           element: <Pending />,
         },
-        
+        {
+          path: "home-construction-loan",
+          element: <Approved />,
+        },
+        {
+          path: "business-startup-loan",
+          element: <Request />,
+        },
+        {
+          path: "education-Loan",
+          element: <AllData />,
+        },
        
       ],
     },

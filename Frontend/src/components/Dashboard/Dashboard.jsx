@@ -121,14 +121,14 @@ const Dashboard = () => {
 
   const listMenu = [
     {
-      title: "",
+      title: "We",
       icon: <MarkEmailUnreadIcon />,
-      path: "/user/loanform", 
+      path: "/user/wedding-loans", 
     },
     {
       title: "Pending",
       icon: <PendingActionsIcon />,
-      path: "/dashboard/pending", 
+      path: "/user/", 
     },
     {
       title: "Approved",
